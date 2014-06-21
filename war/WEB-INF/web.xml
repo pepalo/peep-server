@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?><web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
 	<servlet>
 		<servlet-name>Register</servlet-name>
-		<servlet-class>com.pepalo.messenger.server.RegisterServlet</servlet-class>
+		<servlet-class>com.pepalo.peep.server.RegisterServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>Register</servlet-name>
@@ -10,7 +10,7 @@
 	
 	<servlet>
 		<servlet-name>Unregister</servlet-name>
-		<servlet-class>com.pepalo.messenger.server.UnregisterServlet</servlet-class>
+		<servlet-class>com.pepalo.peep.server.UnregisterServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>Unregister</servlet-name>
@@ -19,7 +19,7 @@
 	
 	<servlet>
 		<servlet-name>Chat</servlet-name>
-		<servlet-class>com.pepalo.messenger.server.ChatServlet</servlet-class>
+		<servlet-class>com.pepalo.peep.server.ChatServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>Chat</servlet-name>
@@ -28,7 +28,7 @@
 	
 	<servlet>
 		<servlet-name>Group</servlet-name>
-		<servlet-class>com.pepalo.messenger.server.GroupServlet</servlet-class>
+		<servlet-class>com.pepalo.peep.server.GroupServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>Group</servlet-name>
@@ -37,7 +37,7 @@
 	
 	<servlet>
 		<servlet-name>Init</servlet-name>
-		<servlet-class>com.pepalo.messenger.server.InitServlet</servlet-class>
+		<servlet-class>com.pepalo.peep.server.InitServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>Init</servlet-name>
